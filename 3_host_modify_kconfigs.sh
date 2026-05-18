@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 PRJ_PATH=./zephyr/samples/basic/minimal/prj.conf
 
 # NOTE: KCV = KConfig Value

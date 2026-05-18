@@ -1,5 +1,6 @@
+# shellcheck shell=bash
 # questionable use of ./zephyr as our workspace
-cd ./zephyr
+cd ./zephyr || exit
 
 # remove previous build directory
 rm -rf ./build

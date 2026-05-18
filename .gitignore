@@ -1,1 +1,3 @@
 zephyr
+.direnv/
+.vscode/
