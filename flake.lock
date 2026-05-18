@@ -18,6 +18,23 @@
         "url": "https://github.com/numtide/blueprint/archive/56131e8628f173d24a27f6d27c0215eff57e40dd.tar.gz"
       }
     },
+    "devshell": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1768818222,
+        "narHash": "sha256-460jc0+CZfyaO8+w8JNtlClB2n4ui1RbHfPTLkpwhU8=",
+        "type": "tarball",
+        "url": "https://github.com/numtide/devshell/archive/255a2b1725a20d060f566e4755dbf571bbbb5f76.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://github.com/numtide/devshell/archive/255a2b1725a20d060f566e4755dbf571bbbb5f76.tar.gz"
+      }
+    },
     "nix-github-actions": {
       "inputs": {
         "nixpkgs": [
@@ -75,6 +92,7 @@
     "root": {
       "inputs": {
         "blueprint": "blueprint",
+        "devshell": "devshell",
         "nixpkgs": "nixpkgs",
         "treefmt-nix": "treefmt-nix",
         "zephyr": "zephyr",

@@ -8,6 +8,9 @@
     blueprint.inputs.nixpkgs.follows = "nixpkgs";
     blueprint.url = "https://github.com/numtide/blueprint/archive/56131e8628f173d24a27f6d27c0215eff57e40dd.tar.gz"; # main - 2026-05-17
 
+    devshell.inputs.nixpkgs.follows = "nixpkgs";
+    devshell.url = "https://github.com/numtide/devshell/archive/255a2b1725a20d060f566e4755dbf571bbbb5f76.tar.gz";
+
     treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
     treefmt-nix.url = "https://github.com/numtide/treefmt-nix/archive/790751ff7fd3801feeaf96d7dc416a8d581265ba.tar.gz"; # main - 2026-05-17
 
